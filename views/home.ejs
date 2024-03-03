@@ -1,0 +1,31 @@
+<html>
+
+<body>
+  <% const date=new Date(); date.toLocaleDateString(); %>
+    <em>
+      <%= date %>
+    </em>
+    <h1>
+      Hello,
+      <%= user.username ? user.username.concat('!') : 'Guest!' %>
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat suscipit
+      molestiae ratione est nemo dolor dicta nobis reprehenderit? Ipsum rem id
+      sit vitae, modi totam corporis dolorem ducimus laudantium vel esse nihil
+      sed vero, reiciendis consequatur sequi quidem voluptatibus itaque autem
+      voluptate illum. Ratione saepe modi, excepturi debitis ullam aliquid
+      deleniti consequatur corporis quisquam molestiae earum provident illum,
+      neque sed perferendis quasi quas inventore sit unde laborum suscipit
+      deserunt illo similique incidunt! Pariatur maxime, odio fugit ex ipsam
+      molestias dicta ullam tempore eligendi? Provident dolorem necessitatibus
+      esse, tenetur odio omnis itaque sequi labore, minus nesciunt possimus
+      minima ex doloremque ducimus.
+    </p>
+    <% const x='Hello' %>
+      <h3>
+        <%= x %>
+      </h3>
+</body>
+
+</html>

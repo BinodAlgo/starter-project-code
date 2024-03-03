@@ -1,0 +1,26 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType":"module",
+        "ecmaFeatures":{
+            "jsx":true
+        }
+    },
+    "extends": ["plugin:prettier/recommended"],
+    "rules": {
+        "indent": ["error", 2], // enforce consistent indentation
+        "linebreak-style": ["error", "unix"], // enforce consistent linebreak style
+        "quotes": ["error", "single"], // enforce the consistent use of either backticks, double, or single quotes
+        "semi": ["error", "always"], // require or disallow semicolons instead of ASI
+        "no-unused-vars": ["warn"], // disallow unused variables
+        "no-console": "warn", // disallow the use of console
+        "eqeqeq": ["error", "always"], // require the use of === and !==
+        "curly": "error" // require following curly brace conventions
+    }
+}
+  
